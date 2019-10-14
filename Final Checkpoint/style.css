@@ -1,0 +1,62 @@
+body{
+   background:  Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), 
+
+Linear-gradient(127deg, black, black 70.71%),
+
+Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+h1{
+    color: white;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    top: 40%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+
+
+
+}
+
+h2{
+color: white;
+font-size: 40px;
+
+}
+
+li{
+    display: inline-block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.invisible{
+ text-decoration: none;
+ color: white;
+}
+
+.line{
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.taille
+{
+    font-size: 20px;
+    -moz-border-radius: 5px;-khtml-border-radius: 5px;border-radius : 5px;
+
+}
+
+p{
+    font-size: 20px;
+}
+
