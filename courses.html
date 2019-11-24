@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title> Final Checkpoint</title>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+    <div class="navbar">
+        <div class="element1">
+    <img class="logo" src="logo.png" alt="logo">
+ </div>
+ <div class="element2">
+ <ul>
+  <li> <a class ="invisible" href="index.html">HOME</a></li>
+  <li> <a class="invisible" href="courses.html"> COURSES    </a></li>
+  <li> <a  class="invisible" href="contact.html"> CONTACT   </a></li>
+</div>
+</div>
+</ul>
+<center>
+ <div class="background">
+ <h1> COURSES</h1>
+</div>
+
+ <section>
+ <!--img*9-->
+ <div class="premier">
+ <img class="a" src="Capture1.PNG" alt="capture1"  > <!--width="" height=""-->
+ <img class="a" src="Capture2.PNG" alt="capture2">
+ <img class="a" src="Capture3.PNG" alt="capture3">
+</div>
+<div class="premier">
+ <img class="b" src="Capture4.PNG" alt="capture4">
+ <img class="b" src="Capture5.PNG" alt="capture5">
+ <img class="b" src="Capture6.PNG" alt="capture6">
+ </div>
+ <div class="premier">
+ <img class="c" src="Capture7.PNG" alt="capture7">
+ <img class="c" src="Capture8.PNG" alt="capture8">
+ <img class="c" src="Capture9.PNG" alt="capture9">
+</div>
+</section>
+
+
+ <h2> Feedback </h2>
+ <section>
+ <button onclick="changeBold()" class="line"> B </button>
+ <button onclick="changeItalic()" class="line"> I </button>
+ <button onclick="changeUnderline()" class="line"> Underline </button>
+</section>
+<section>
+ <form class="line">
+   <select onchange="changeSize()" id="size">
+       <option value="20px"> 20px</option>
+       <option value="30px"> 30px</option>
+       <option value="40px"> 40px</option>
+   </select>
+ </form class="line">
+   <select onchange="changeStyle()" id="style">
+       <option value="Arial">Ariel</option>
+       <option value="Verdana">Verdana</option>
+       <option value="Geneva">Geneva</option>
+   </select>
+   </section>
+  <section>
+   <textarea id="text"></textarea>
+</section>
+ </form>
+
+
+</center>
+
+ </body>
+ <script src="main.js"></script>
+
+
+</html>
